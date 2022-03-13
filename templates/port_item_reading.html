@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+    <head> 
+        <meta charset="UTF 8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sean's Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.clourflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha-256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- CSS file -->
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,900|Source+Sans+Pro:300,900&display=swap">
+
+    </head>
+
+
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../resources/candlestick_logo_blue.png" alt="Logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Title -->
+        <p class="project__title"><strong>Books I've Read</strong></p>
+        <!-- Intro -->
+        <div class="book__project__info">
+            <p>Reading has recently become an increasingly important habit of mine, and I think one of the best aspects of reading is being able to share what you've learned with others to bounce ideas off of each other and hear different perspectives. Some books I've read for fun, but most of them have been to expand my view and knowledge of topics that I find interesting. Here are some of the books I've read or am currently reading:</p>
+        </div>
+
+
+        <!-- Book Covers and info -->
+        <div class="books">
+            <p class="section__header">Currently Reading</p>
+            <div class="books__item">
+                <img src="../resources/natenberg_options_cover.jpg" alt="Natenberg" class="books__cover-image">
+                <div class="books__info">
+                    <h2 class="books__title">Options Volatility and Pricing</h2>
+                    <p class="books__author"><strong>By Sheldon Natenberg</strong></p>
+                </div>
+                <p class="books__writing">Prior to reading this book, much of my knoweldge of options has been from online resources. When I decided I wanted to take this more seriously, Options Volatility and Pricing was the first place I started. I'm currently a quarter of the way through this book, and my understanding of options modeling and how it relates to institutions has increased exponentially already. I'm particularly intruiged by the role of probability in options pricing. Similar to sports betting and poker, the strategy behind options is to put the odds of success in your favor and the way in which probabilities are calculated vary by trader. I think it's interesting how our models have to match the pricing of the market which is impacted by the macro-environment. Given this assumption, I wonder how do we make robust models that react to real world events such as interest rate hikes and economic data? Furthermore, are there optimization methods for factors other than volatility? For example, is the current price dictated by the bid, the ask, some midprice between, or the last sell price? Could it be that for some stocks the ask yields the most accurate model while for others the midprice would yield a more accurate model?</p>
+            </div>
+            <p class="section__header">Recent Reads</p>
+
+            <div class="books__item">
+                <img src="../resources/relentless_cover.jpg" alt="Relentless" class="books__cover-image">
+                <div class="books__info">
+                    <h2 class="books__title">Relentless</h2>
+                    <p class="books__author"><strong>By Tim Grover</strong></p>
+                </div>
+                <p class="books__writing">Relentless reaffirmed my belief that discipline is a large part of the foundation for success. This book changed the way I visualize and define success with respect to hunger and determination. Tim Grover asserts that there are three types of indivudals: <strong>Coolers, Closers, and Cleaners</strong>. These categories can apply in all areas of life: work, school, sports, projects. In short, Coolers are good, Closers are great, and Cleaners are unstoppable. Gover spends much of the book describing how Cleaners operate and what they do that sets them apart from the rest. Cleaners set the bar for success such that when they achieve it they are always setting it higher. Cleaners take responsibility for everything in their lives, both good and bad. Cleaners don't make excuses, they admit their faults and shortcomings and work to improve upon them. Grover talks on his experiences with professional athletes, such as Michael Jordan and Kobe Bryant, and how they have shown themselves to be Cleaners. I read this book thinking: What can I do to become unstoppable? I've been on my journey of self-improvement for some time now, and this book helped me reach new levels across the board.</p>
+                <!-- Relentless reaffirmed my belief that discipline is a large part of the foundation for success. This book changed the way I visualize and define success with respect to hunger and determination. Tim Grover asserts that there are three types of indivudals: Coolers, Closers, and Cleaners. These categories can apply in all areas of life: work, school, sports, projects. In short, Coolers are good, Closers are great, and Cleaners are unstoppable. Gover spends much of the book describing how Cleaners operate and what they do that sets them apart from the rest. Cleaners set the bar for success such that when they achieve it they are always setting it higher. Cleaners take responsibility for everything in their lives, both good and bad. Cleaners don't make excuses, they admit their faults and shortcomings and work to improve upon them. Grover talks on his experiences with professional athletes, such as Michael Jordan and Kobe Bryant, and how they have shown themselves to be Cleaners. I read this book thinking: What can I do to become unstoppable? I've been on my journey of self-improvement for some time now, and this book helped me reach new levels across the board. -->
+            </div>
+
+            <div class="books__item">
+                <img src="../resources/psychology_of_money_cover.jpg" alt="Psychology of Money" class="books__cover-image">
+                <div class="books__info">
+                    <h2 class="books__title">The Psychology of Money</h2>
+                    <p class="books__author"><strong>By Morgan Housel</strong></p>
+                </div>
+                <p class="books__writing">If I had to describe The Psychology of Money in one world it would be <strong>perspective</strong>. The way most of us view, spend, and interact with money is a direct reflection of our experiences with money. The very first chapter of the book, "No One's Crazy", Housel explains how every financial decision made makes sense to the individual who made it, regardless of our opinion of it. This may seem quite obvious, but the reality is we all handle money very differently. Some choose to buy fancy cars, others save in the bank, and some invest it in the stock market. Point being, they all have reasoning behind the decisions they make. There was another study done researching the way adults invested compared to the growth of the stock market while they were growing up. If they experienced a bull market during their childhood, adults were significantly more likely to invest when compared to adults who grew up in a stagnant or bear market. This book also touches on important distinctions such as growing wealth versus maintaining wealth and how much money we need versus how much we want (necessity vs greed). Finally, one of the main themes that changed the way I perceive wealth is the following: Wealth is what you don't see.</p>
+            </div>
+
+            <div class="books__item">
+                <img src="../resources/winning_cover.jpg" alt="W1NNING" class="books__cover-image">
+                <div class="books__info">
+                    <h2 class="books__title">W1NNING</h2>
+                    <p class="books__author"><strong>By Tim Grover</strong></p>
+                </div>
+                <p class="books__writing">W1NNING is undeniably the my favorite book of all time at this point in my life. In this book, Tim Grover, personal trainer of professional athletes such as Dwayne Wade, Michael Jordan, and Kobe Bryant, goes in depth into what it takes to win at the highest level through his 13 Principles for Winning. The main themes of these principles are sacrifice, patience, and hard work. As I read this book, I continuously incorporated the lessons I was learning to my own passions, in search of higher highs and to excel at what I care about. Optimizing productivty, organizing my days better, and overall just living a more fulfilling life. This book provides value for anyone who is looking to take themselves to the next level. W1NNING is about going all in on yourself. W1NNING taught me that in order to be great, you must be willing to sacrifice. I learned to push through discomfort, focus on the task at hand, and to take responsibility for my goals and my life.</p>
+            </div>
+    
+            <div class="books__item">
+                <img src="../resources/subtle_art_cover.jpg" alt="Subtle Art Cover" class="books__cover-image">
+                <div class="books__info">
+                    <h2 class="books__title">The Subtle Art of Not Giving a F*ck</h2>
+                    <p class="books__author"><strong>By Mark Manson</strong></p>
+                </div>
+                <p class="books__writing">Counterinuitive is definitly the proper word to describe this book. The first half of the story essentially tells you that life is just a meaningless constant struggle. It sucks, and instead of beating around the bush with forced positivity (as he says many self-help books try to do) we should just accept it. Surprisingly, the second half of the book takes a turn for the better. We may all have problems, but we are given control over choosing many of those problems. For example, fitness. Dieting and working out on a consistent basis is hard, but it's also hard to deal with the health consequences of not being fit. Either way it's going to be hard, so which problem would you rather have? Be grateful that we have control over the direction of our lives. Furthermore, there are too many problems to care about them all, which is why Manson teaches us how to "not give a fuck". Focus on the few things that really do matter to you, so you can give them your full attention. Manson argues it is the struggles that give life meaning. I read this book at the height of the COVID-19 pandemic, when a lot of the things I cared about got flipped on their heads and some cut off entirely from my life. I accepted that I can't control the environment around me, but I can control how I reacted to it.</p>
+            </div>
+
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:sb7671@nyu.edu" class="footer__link">sb7671@nyu.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/sean.balks/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/seanbalakhanei/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/sean-balks">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://ethereum.org/en/">
+                        <i class="fab fa-ethereum"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="../js/index.js"></script>
+    </body>
+</html>

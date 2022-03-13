@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+    <head> 
+        <meta charset="UTF 8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sean's Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.clourflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha-256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- CSS file -->
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,900|Source+Sans+Pro:300,900&display=swap">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../resources/candlestick_logo_blue.png" alt="Logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Sean Balakhanei</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"><strong>Software Developer</strong></p>
+            <img src="../resources/headshot_suit.jpg" alt="headshot" class="intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Software</h3>
+                    <p>My interest in computer science initially stemmed from playing video games as a kid, and over time developed into a passion for problem solving and innovation. Coding has given me the ability to bring my ideas into the digital world and enabled me to express my creativity.</p>
+                </div>
+                <div class="service">
+                    <h3>Trading</h3>
+                    <p>I began learning about the stock market during my senior year of high school, and COVID-19 gave me more time to learn and explore. Options in particular piqued my interest in the way they are priced that give way to arbitrage and how they allow traders to leverage their capital. I traded equities for around a year and a half until my interest expanded to options.</p>
+                </div>
+                <div class="service">
+                    <h3>Reading</h3>
+                    <p>YouTube and online articles were my main sources of information for a long time because of how quickly I could shift from topic to topic. As I matured, and my hunger for knowledge grew, I realized books were a resource that could give me more extensive and specialized information on the things I was interested in.</p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h1>
+            <p class="section__subtitle section__subtitle--about"><strong>Software Engineer based out of NY</strong></p>
+            
+            <div class="about-me__body">
+                <p>I am an undergraduate Computer Science student at New York University Tandon School of Engineering with minors in Finance and Mathematics. I find joy in problem solving and taking calculated risk. I believe fear is in the mind, and learning to continue progressing despite difficulty and failure will allow one to adapt and overcome.</p>
+                <p>I am an aspiring software engineer looking to pursue a career in financial tech or software development. I believe there is value in discipline and dedication, and I'm seeking to grow as a professional as well as an individual.</p>
+            </div>
+
+            <img src="../resources/vertical-image.png" alt="Something" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <a href="port_item_relative_valuation.html" class="portfolio__item">
+                    <img src="../resources/Relative Valuation Model Generator_front.png" alt="Relative Valuation Model Generator" class="portfolio__img">
+                </a>
+                <a href="port_item_abcs_of_btc.html" class="portfolio__item">
+                    <img src="../resources/ABCs_of_BTC_front.png" alt="ABCs of BTC" class="portfolio__img" style=object-fit:scale-down>
+                </a>
+                <a href="port_item_reading.html" class="portfolio__item">
+                    <img src="../resources/Reading_front.png" alt="Reading" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:sb7671@nyu.edu" class="footer__link">sb7671@nyu.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/sean.balks/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/seanbalakhanei/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/sean-balks">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://ethereum.org/en/">
+                        <i class="fab fa-ethereum"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="../js/index.js"></script>
+    </body>
+</html>
